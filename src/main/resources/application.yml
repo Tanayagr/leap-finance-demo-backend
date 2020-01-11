@@ -1,5 +1,11 @@
+app:
+  jwt:
+    token:
+      secret: secret
+    expire:
+      hours:  24
 logging.level:
-    com.leapfinance.*: DEBUG
+  com.leapfinance.*: DEBUG
 spring:
   application.name: leap-fiance-demo
   jackson.date-format: yyyy-MM-dd'T'HH:mm:ss.SSSZ
